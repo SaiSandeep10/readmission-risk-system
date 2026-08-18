@@ -19,13 +19,13 @@ with tab1:
     with col1:
         st.subheader("ROC, Precision-Recall & Confusion Matrix")
         if os.path.exists(f"{fig_dir}/model_evaluation.png"):
-            st.image(f"{fig_dir}/model_evaluation.png", use_column_width=True)
+            st.image(f"{fig_dir}/model_evaluation.png", use_container_width=True)
         elif os.path.exists(f"{fig_dir}/model_evaluation_v2.png"):
-            st.image(f"{fig_dir}/model_evaluation_v2.png", use_column_width=True)
+            st.image(f"{fig_dir}/model_evaluation_v2.png", use_container_width=True)
     with col2:
         st.subheader("Probability Calibration Curve")
         if os.path.exists(f"{fig_dir}/calibration_curve.png"):
-            st.image(f"{fig_dir}/calibration_curve.png", use_column_width=True)
+            st.image(f"{fig_dir}/calibration_curve.png", use_container_width=True)
 
     st.markdown("---")
     st.subheader("Summary Evaluation Metrics")
@@ -39,11 +39,11 @@ with tab2:
     with col1:
         st.subheader("Global Feature Importance (Beeswarm)")
         if os.path.exists(f"{fig_dir}/shap_summary.png"):
-            st.image(f"{fig_dir}/shap_summary.png", use_column_width=True)
+            st.image(f"{fig_dir}/shap_summary.png", use_container_width=True)
     with col2:
         st.subheader("Individual Prediction Waterfall Example")
         if os.path.exists(f"{fig_dir}/shap_waterfall_example.png"):
-            st.image(f"{fig_dir}/shap_waterfall_example.png", use_column_width=True)
+            st.image(f"{fig_dir}/shap_waterfall_example.png", use_container_width=True)
 
 with tab3:
     st.header("Patient Cohort Discovery (K-Means Clustering)")
@@ -51,11 +51,11 @@ with tab3:
     with col1:
         st.subheader("2D PCA Projection of Cohorts")
         if os.path.exists(f"{fig_dir}/cluster_scatter.png"):
-            st.image(f"{fig_dir}/cluster_scatter.png", use_column_width=True)
+            st.image(f"{fig_dir}/cluster_scatter.png", use_container_width=True)
     with col2:
         st.subheader("Optimal Cluster Selection (Elbow & Silhouette)")
         if os.path.exists(f"{fig_dir}/elbow_and_silhouette.png"):
-            st.image(f"{fig_dir}/elbow_and_silhouette.png", use_column_width=True)
+            st.image(f"{fig_dir}/elbow_and_silhouette.png", use_container_width=True)
 
     if os.path.exists("reports/cohort_profiles.md"):
         st.markdown("---")
