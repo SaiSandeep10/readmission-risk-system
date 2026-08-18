@@ -1,0 +1,10 @@
+{
+  "operating_threshold": 0.10233944787443665,
+  "mean_test_probability": 0.08923367291350959,
+  "test_positive_rate": 0.08967488388710254,
+  "test_roc_auc": 0.6497032904488795,
+  "test_recall_at_threshold": 0.503585657370518,
+  "test_precision_at_threshold": 0.14505393619462933,
+  "risk_tier_low_cutoff": 0.07747777277622825,
+  "risk_tier_high_cutoff": 0.13493071366108017
+}

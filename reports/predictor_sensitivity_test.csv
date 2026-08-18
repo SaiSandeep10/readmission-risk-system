@@ -1,0 +1,12 @@
+Test,Probability,Tier,Cluster
+1. Baseline (defaults),4.9%,Low,3
+2. Young + minimal,2.2%,Low,3
+3. Elderly + minimal (age isolated),2.6%,Low,2
+4-corrected. Realistic high-risk profile,26.1%,High,2
+4b. Same but discharge=3 (SNF),17.6%,High,2
+5. High medications only,3.3%,Low,0
+6. High lab procedures only,6.6%,Low,3
+7. Out-of-distribution inpatient (15),10.0%,Medium,2
+8a. Diagnosis - Respiratory,2.2%,Low,3
+8b. Diagnosis - Circulatory,3.6%,Low,3
+8c. Diagnosis - Musculoskeletal,2.5%,Low,3
