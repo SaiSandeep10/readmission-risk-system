@@ -7,7 +7,7 @@
 
 An end-to-end clinical machine learning system that predicts **30-day hospital readmission risk** for diabetic patients and discovers clinically meaningful patient cohorts using unsupervised learning. Developed as a merit project for the **IBM AI/ML Internship (Q2D)**.
 
-🔗 **Live Streamlit App:** [https://readmission-risk-system.streamlit.app](https://readmission-risk-system.streamlit.app)  
+🔗 **Live Streamlit App:** [https://readmission-risk-system-um2kxupd8hxcsxxnyjj8xo.streamlit.app/](https://readmission-risk-system-um2kxupd8hxcsxxnyjj8xo.streamlit.app/)  
 📦 **GitHub Repository:** [https://github.com/SaiSandeep10/readmission-risk-system.git](https://github.com/SaiSandeep10/readmission-risk-system.git)
 
 ---
